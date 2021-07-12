@@ -1,6 +1,6 @@
 {
   "name": "storybook-i18next",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Add i18next support to Storybook",
   "keywords": [
     "storybook-addons",
