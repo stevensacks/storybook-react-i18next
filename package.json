@@ -41,6 +41,9 @@
     "release": "yarn build && auto shipit",
     "eject-ts": "zx scripts/eject-typescript.mjs"
   },
+  "dependencies": {
+    "storybook-i18n": "^0.9.3"
+  },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
@@ -55,11 +58,11 @@
     "concurrently": "^6.2.0",
     "dedent": "^0.7.0",
     "i18next": "^20.3.2",
-    "react-i18next": "^11.11.1",
     "prettier": "^2.3.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.11.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.2.4",
     "zx": "^1.14.1"
@@ -71,9 +74,9 @@
     "@storybook/core-events": "^6.2.9",
     "@storybook/theming": "^6.2.9",
     "i18next": "^20.3.2",
-    "react-i18next": "^11.11.1",
     "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react-dom": "^16.8.0 || ^17.0.0",
+    "react-i18next": "^11.11.1"
   },
   "peerDependenciesMeta": {
     "react": {
