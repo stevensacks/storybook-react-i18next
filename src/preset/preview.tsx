@@ -1,8 +1,8 @@
 import React, {useEffect, Suspense} from 'react';
+import {StoryContext, StoryGetter} from '@storybook/addons/dist/ts3.9/types';
+import {useGlobals} from '@storybook/client-api';
 import {addDecorator} from '@storybook/react';
 import {I18nextProvider} from 'react-i18next';
-import {StoryContext, StoryGetter} from "@storybook/addons/dist/ts3.9/types";
-import {useGlobals} from '@storybook/client-api';
 import i18n from 'i18next';
 
 export const parameters = {
