@@ -6,6 +6,11 @@ function config(entry = []) {
   ];
 }
 
+function managerEntries(entry = []) {
+  return [...entry, require.resolve('storybook-i18n/manager')];
+}
+
 module.exports = {
   config,
+  managerEntries,
 };
