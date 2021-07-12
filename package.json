@@ -42,7 +42,7 @@
     "eject-ts": "zx scripts/eject-typescript.mjs"
   },
   "dependencies": {
-    "storybook-i18n": "^0.9.3"
+    "storybook-i18n": "^0.9.8"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",

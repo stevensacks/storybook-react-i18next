@@ -9737,10 +9737,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.12.0.tgz#e1f1b7e1a59b6083b2596a8d067f6ee88fd4d3cf"
   integrity sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==
 
-storybook-i18n@^0.9.3:
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/storybook-i18n/-/storybook-i18n-0.9.3.tgz#64ae57172f64b904df5b714826a6f196397d178c"
-  integrity sha512-WLi47cO9o/Y/R6rW3RzDMobPs2Yo+dOIirhVrymJ7YKLFCHU0DfoSemqOYF7kUIxvX2tJhKW08coh6VKkON7rw==
+storybook-i18n@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/storybook-i18n/-/storybook-i18n-0.9.8.tgz#b516fbfad3e33dd298f00ec2aa6859bf976e58d5"
+  integrity sha512-mdMTFf5mfl8ATM+yZLyVqLoM+5oMRas57m4QUCIDfBY5fuoyQoNCed0A05rkBq8mEizvWTDdkq7PmIRwrMNfQg==
   dependencies:
     accepts "^1.3.7"
     acorn "^7.4.1"
