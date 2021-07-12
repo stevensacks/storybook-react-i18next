@@ -1,6 +1,6 @@
-# Storybook Addon i18next
+# Storybook Addon i18next (React)
 
-Add i18next support to Storybook.
+Add i18next support to Storybook for React projects.
 
 ## Installation
 
