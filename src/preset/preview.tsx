@@ -3,25 +3,19 @@ import {StoryContext, StoryGetter} from '@storybook/addons/dist/ts3.9/types';
 import {useGlobals} from '@storybook/client-api';
 import {addDecorator} from '@storybook/react';
 import {I18nextProvider} from 'react-i18next';
-import i18n from 'i18next';
-
-export const parameters = {
-  i18n,
-}
 
 const withI18Next = (story: StoryGetter, context: StoryContext) => {
   const [{locale}] = useGlobals();
   const {
     parameters: {i18n},
   } = context;
-  const language = i18n?.language;
 
   useEffect(() => {
-    if (locale && language && language !== locale) {
+    if (locale) {
       i18n?.changeLanguage(locale);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [language, locale]);
+  }, [locale]);
 
   if (i18n) {
     return (
