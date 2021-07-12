@@ -4,6 +4,7 @@
   "description": "Add i18next support to Storybook",
   "keywords": [
     "storybook-addons",
+    "storybook-i18n",
     "i18next",
     "i18n",
     "localization",
