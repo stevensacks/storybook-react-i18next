@@ -1,17 +1,19 @@
 {
-  "name": "storybook-addon-kit",
-  "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "name": "storybook-addon-i18next",
+  "version": "0.9.0",
+  "description": "Add i18next support to Storybook",
   "keywords": [
     "storybook-addons",
-    "style",
-    "test"
+    "i18next",
+    "i18n",
+    "localization",
+    "internationalization"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/stevensacks/storybook-addon-i18next"
   },
-  "author": "winkerVSbecks",
+  "author": "Steven Sacks",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -52,6 +54,8 @@
     "boxen": "^5.0.1",
     "concurrently": "^6.2.0",
     "dedent": "^0.7.0",
+    "i18next": "^20.3.2",
+    "react-i18next": "^11.11.1",
     "prettier": "^2.3.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -66,6 +70,8 @@
     "@storybook/components": "^6.2.9",
     "@storybook/core-events": "^6.2.9",
     "@storybook/theming": "^6.2.9",
+    "i18next": "^20.3.2",
+    "react-i18next": "^11.11.1",
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0"
   },
@@ -81,7 +87,7 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Storybook Addon i18next",
     "supportedFrameworks": [
       "react",
       "vue",
