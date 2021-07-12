@@ -3,11 +3,6 @@ import {StoryContext, StoryGetter} from '@storybook/addons/dist/ts3.9/types';
 import {useGlobals} from '@storybook/client-api';
 import {addDecorator} from '@storybook/react';
 import {I18nextProvider} from 'react-i18next';
-import i18n from 'i18next';
-
-export const parameters = {
-  i18n,
-}
 
 const withI18Next = (story: StoryGetter, context: StoryContext) => {
   const [{locale}] = useGlobals();
