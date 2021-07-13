@@ -1,17 +1,17 @@
-# Storybook Addon i18next (React)
+# Storybook react-i18next addon
 
-Add i18next support to Storybook for React projects.
+Easy react-i18next Storybook integration.
 
 ## Installation
 
-This addon should be added as a dev dependency.
+Install this addon as a dev dependency.
 
 ```bash
-npm i -D storybook-addon-i18next
+npm i -D storybook-react-i18next
 ```
 
 ```bash
-yarn add -D storybook-addon-i18next
+yarn add -D storybook-react-i18next
 ```
 
 You will need to install `i18next` and `react-i18next` as dependencies to your project if they are not already installed.
@@ -33,7 +33,7 @@ Insert this addon into your addons array:
 {
   addons: [
     // other addons...
-    'storybook-i18next',
+    'storybook-react-i18next',
   ]
 }
 ```
@@ -79,7 +79,6 @@ export {i18n};
 ```
 
 Refer to the [i18next Configuration Options](https://www.i18next.com/overview/configuration-options) documentation for detailed information about the configuration options.
-
 
 ---
 
