@@ -114,11 +114,43 @@ export const parameters = {
   locales: {
     en_US: 'English (US)',
     en_GB: 'English (GB)',
-    fr_FR: 'French',
-    ja_JP: 'Japanese',    
+    fr_FR: 'Français',
+    ja_JP: '日本語',    
   },
 };
 ```
+
+
+The `locales` object can also have values as an object with keys of `title`, `left`, or `right`.
+
+This is useful if you want to include an emoji flag or some other string to the left or right side.
+
+For example:
+```javascript
+export const parameters = {
+    locale: "en",
+    locales: {
+        en: {title: "English", left: '🇺🇸'},
+        fr: {title: "Français", left: '🇫🇷'},
+        ja: {title: "日本語", left: '🇯🇵'},
+    },
+};
+```
+
+Or something like this:
+```javascript
+export const parameters = {
+  locale: "en_US",
+  locales: {
+    en_US: {title: "English", right: 'US'},
+    en_GB: {title: "English", right: 'GB'},
+    fr_FR: {title: "Français", right: 'FR'},
+    ja_JP: {title: "日本語", right: 'JP'},
+  },
+};
+```
+
+
 ---
 Once you have finished these steps and launch storybook, you should see a globe icon in the toolbar.
 
