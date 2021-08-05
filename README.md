@@ -127,19 +127,25 @@ This is useful if you want to include an emoji flag or some other string to the 
 
 For example:
 ```javascript
+import {i18n} from './i18next.js';
+
 export const parameters = {
-    locale: "en",
-    locales: {
-        en: {title: "English", left: '🇺🇸'},
-        fr: {title: "Français", left: '🇫🇷'},
-        ja: {title: "日本語", left: '🇯🇵'},
-    },
+  i18n,
+  locale: "en",
+  locales: {
+    en: {title: "English", left: '🇺🇸'},
+    fr: {title: "Français", left: '🇫🇷'},
+    ja: {title: "日本語", left: '🇯🇵'},
+  },
 };
 ```
 
 Or something like this:
 ```javascript
+import {i18n} from './i18next.js';
+
 export const parameters = {
+  i18n,
   locale: "en_US",
   locales: {
     en_US: {title: "English", right: 'US'},
@@ -149,8 +155,6 @@ export const parameters = {
   },
 };
 ```
-
-
 ---
 Once you have finished these steps and launch storybook, you should see a globe icon in the toolbar.
 
