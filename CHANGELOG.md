@@ -1,3 +1,16 @@
+# v1.0.9 (Fri Aug 06 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next into main ([@stevensacks](https://github.com/stevensacks))
+- update README to include i18n in left/right examples ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.8 (Thu Aug 05 2021)
 
 #### ⚠️ Pushed to `main`
