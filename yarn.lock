@@ -10315,10 +10315,10 @@ storybook-addon-outline@^1.4.1:
     "@storybook/core-events" "^6.3.0"
     ts-dedent "^2.1.1"
 
-storybook-i18n@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/storybook-i18n/-/storybook-i18n-1.0.2.tgz#e1c80f36ec8d74ed61e52a80bde6d1622efe8b42"
-  integrity sha512-Dq+HSgfzyipFjiWwAOnou4xqCJWngDMg/AD61Zf/v2Ua11N4iS1NMT1KMTtOvzK7T6FRFxPJty6Hg6FcxkW1+A==
+storybook-i18n@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/storybook-i18n/-/storybook-i18n-1.0.3.tgz#b5b1d5106aab067dfe7e76c4af1d50fd335330b2"
+  integrity sha512-dMIZf+4uoFMpn6GLWnh0428MVGsDJYXa1NtBPE6hs/R95LYY19l8HszgMq6wYcrKe1L6vdQiV0Vu9J9gz4ZR4w==
 
 stream-browserify@^2.0.1:
   version "2.0.2"
