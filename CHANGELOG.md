@@ -1,3 +1,17 @@
+# v1.0.9 (Fri Sep 24 2021)
+
+#### ⚠️ Pushed to `main`
+
+- feat(project): update libs, peer dependencies, readme ([@stevensacks](https://github.com/stevensacks))
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next into main ([@stevensacks](https://github.com/stevensacks))
+- update README to include i18n in left/right examples ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.9 (Fri Aug 06 2021)
 
 #### ⚠️ Pushed to `main`
