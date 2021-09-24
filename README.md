@@ -2,6 +2,8 @@
 
 Easy react-i18next Storybook integration.
 
+This Storybook addon assumes your project is already set up with [i18next](https://www.i18next.com/overview/getting-started) and [react-i18next](https://react.i18next.com/getting-started), with all the required packages installed, and that it is properly configured and working.
+
 ## Installation
 
 Install this addon as a dev dependency.
