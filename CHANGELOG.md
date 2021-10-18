@@ -1,3 +1,16 @@
+# v1.0.11 (Mon Oct 18 2021)
+
+#### ⚠️ Pushed to `main`
+
+- update libs ([@stevensacks](https://github.com/stevensacks))
+- fix race condition with <Trans> elements with short delay ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.9 (Fri Sep 24 2021)
 
 #### ⚠️ Pushed to `main`
