@@ -69,7 +69,7 @@ i18n.use(LanguageDetector)
 
 supportedLngs.forEach((lang) => {
     ns.forEach((n) => {
-        i18n.addResources(
+        i18n.addResourceBundle(
             lang,
             n,
             require(`../public/locales/${lang}/${n}.json`)
