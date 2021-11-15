@@ -1,3 +1,20 @@
+# v1.0.13 (Mon Nov 15 2021)
+
+#### 🐛 Bug Fix
+
+- docs: use `addResourceBundle` in readme file [#3](https://github.com/stevensacks/storybook-react-i18next/pull/3) ([@georgiee](https://github.com/georgiee))
+
+#### ⚠️ Pushed to `main`
+
+- fix merge ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Georgios Kaleadis ([@georgiee](https://github.com/georgiee))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.11 (Mon Oct 18 2021)
 
 #### ⚠️ Pushed to `main`
