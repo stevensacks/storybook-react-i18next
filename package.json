@@ -44,7 +44,7 @@
     "eject-ts": "zx scripts/eject-typescript.mjs"
   },
   "dependencies": {
-    "storybook-i18n": "^1.0.8"
+    "storybook-i18n": "^1.0.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -66,7 +66,7 @@
     "dedent": "^0.7.0",
     "i18next": "^21.6.3",
     "prettier": "^2.5.1",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-i18next": "^11.15.1",
