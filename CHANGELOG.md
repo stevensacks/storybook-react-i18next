@@ -1,3 +1,15 @@
+# v1.0.14 (Wed Dec 22 2021)
+
+#### ⚠️ Pushed to `main`
+
+- chore(deps): update to storybook 6.4 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.13 (Mon Nov 15 2021)
 
 #### 🐛 Bug Fix
