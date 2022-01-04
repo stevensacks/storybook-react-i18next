@@ -1,3 +1,15 @@
+# v1.0.16 (Tue Jan 04 2022)
+
+#### ⚠️ Pushed to `main`
+
+- feat(tool): show tool in Docs panel ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.15 (Fri Dec 24 2021)
 
 #### ⚠️ Pushed to `main`
