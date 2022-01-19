@@ -8,7 +8,7 @@ import {useGlobals} from '@storybook/client-api';
 import {I18nextProvider} from 'react-i18next';
 
 export const withI18Next = (
-    story: StoryFunction<AnyFramework>,
+    Story: StoryFunction<AnyFramework>,
     context: StoryContext
 ) => {
     const {
@@ -36,11 +36,11 @@ export const withI18Next = (
             <Suspense fallback="Loading...">
                 <Fragment key={locale}>
                     <I18nextProvider i18n={i18n}>
-                        {story(context)}
+                        <Story {...context} />
                     </I18nextProvider>
                 </Fragment>
             </Suspense>
         );
     }
-    return story(context);
+    return <Story {...context} />;
 };
