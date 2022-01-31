@@ -3,7 +3,7 @@
 Easy react-i18next Storybook integration.
 
 Required Versions:
-* storybook - `^6.4.9`
+* storybook - `^6.4.17`
 * i18next - `^20.0.0 || ^21.0.0`
 * react-i18next - `^11.15.0`
 
