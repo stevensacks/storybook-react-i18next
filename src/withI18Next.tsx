@@ -1,10 +1,10 @@
-import React, {useEffect, useRef, useState, Suspense, Fragment} from 'react';
+import React, {Suspense, Fragment} from 'react';
 import {
     AnyFramework,
     PartialStoryFn as StoryFunction,
     StoryContext,
 } from '@storybook/csf';
-import {useGlobals} from '@storybook/client-api';
+import {useEffect, useGlobals, useRef, useState} from '@storybook/client-api';
 import {I18nextProvider} from 'react-i18next';
 
 export const withI18Next = (
