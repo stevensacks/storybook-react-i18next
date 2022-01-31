@@ -1,3 +1,15 @@
+# v1.0.17 (Mon Jan 31 2022)
+
+#### 🐛 Bug Fix
+
+- fix(hooks): use storybook hooks instead of react [#6](https://github.com/stevensacks/storybook-react-i18next/pull/6) ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.16 (Tue Jan 04 2022)
 
 #### ⚠️ Pushed to `main`
