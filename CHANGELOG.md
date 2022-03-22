@@ -1,3 +1,15 @@
+# v1.0.18 (Tue Mar 22 2022)
+
+#### 🐛 Bug Fix
+
+- Loosen the Peer dependencies [#10](https://github.com/stevensacks/storybook-react-i18next/pull/10) ([@arcticShadow](https://github.com/arcticShadow))
+
+#### Authors: 1
+
+- Cole Diffin  ([@arcticShadow](https://github.com/arcticShadow))
+
+---
+
 # v1.0.17 (Mon Jan 31 2022)
 
 #### 🐛 Bug Fix
