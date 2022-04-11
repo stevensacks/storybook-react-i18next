@@ -1,3 +1,16 @@
+# v1.0.20 (Mon Apr 11 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- docs(readme): change export and import of i18next.js ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.19 (Mon Apr 11 2022)
 
 #### ⚠️ Pushed to `main`
