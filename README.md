@@ -2,9 +2,11 @@
 
 Easy react-i18next Storybook integration.
 
-Required Versions:
+Required Peer Dependencies:
 * storybook - `^6.4.17`
 * i18next - `^20.0.0 || ^21.0.0`
+* i18next-browser-languagedetector - `^6.1.4`
+* i18next-http-backend: `^1.4.0`
 * react-i18next - `^11.16.5`
 
 This Storybook addon assumes your project is already set up with [i18next](https://www.i18next.com/overview/getting-started) and [react-i18next](https://react.i18next.com/getting-started), with all the required packages installed, and that it is properly configured and working.
