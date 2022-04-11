@@ -99,7 +99,7 @@ In your `preview.js`, you need to add the `locales` and `locale` parameters, as 
 `locale` is what you want the default locale to be.
 
 ```javascript
-import {i18n} from './i18next.js';
+import i18n from './i18next.js';
 
 export const parameters = {
   i18n,
@@ -115,7 +115,7 @@ export const parameters = {
 You can also use full locale strings as keys. It depends on your i18next configuration.
 
 ```javascript
-import {i18n} from './i18next.js';
+import i18n from './i18next.js';
 
 export const parameters = {
   i18n,
@@ -136,7 +136,7 @@ This is useful if you want to include an emoji flag or some other string to the 
 
 For example:
 ```javascript
-import {i18n} from './i18next.js';
+import i18n from './i18next.js';
 
 export const parameters = {
   i18n,
@@ -151,7 +151,7 @@ export const parameters = {
 
 Or something like this:
 ```javascript
-import {i18n} from './i18next.js';
+import i18n from './i18next.js';
 
 export const parameters = {
   i18n,
