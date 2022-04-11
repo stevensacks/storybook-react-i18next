@@ -1,3 +1,16 @@
+# v1.0.19 (Mon Apr 11 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore(deps): update peerDeps, react 18 support ([@stevensacks](https://github.com/stevensacks))
+- chore(deps): update dependencies ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.18 (Tue Mar 22 2022)
 
 #### 🐛 Bug Fix
