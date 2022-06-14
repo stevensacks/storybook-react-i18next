@@ -1,3 +1,15 @@
+# v1.0.21 (Tue Jun 14 2022)
+
+#### ⚠️ Pushed to `main`
+
+- feat(i18next): disable suspense, add backend, update SB 6.5 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.20 (Mon Apr 11 2022)
 
 #### ⚠️ Pushed to `main`
