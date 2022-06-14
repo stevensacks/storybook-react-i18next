@@ -9995,10 +9995,10 @@ react-element-to-jsx-string@^14.3.4:
     is-plain-object "5.0.0"
     react-is "17.0.2"
 
-react-i18next@^11.16.5:
-  version "11.16.5"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-11.16.5.tgz#5258784b9b617c443811307072a434ec7447c70a"
-  integrity sha512-dkDN9suVU/jaD9A0xM4qNU9++LwgueWZn5XGTDEKTZeBgsd3q17ssTQXlSbEb0Gl0iLDdUKU7MrdjQjDc33ztA==
+react-i18next@^11.17.1:
+  version "11.17.1"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-11.17.1.tgz#3a5309ac6c093b4c556c7f8a0a808c034929040c"
+  integrity sha512-4H4fK9vWsQtPP0iAdqzGfdPKLaSXpCjuh1xaGsejX/CO8tx8zCnrOnlQhMgrJf+OlUfzth5YaDPXYGp3RHxV1g==
   dependencies:
     "@babel/runtime" "^7.14.5"
     html-escaper "^2.0.2"
@@ -10937,10 +10937,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.12.0.tgz#e1f1b7e1a59b6083b2596a8d067f6ee88fd4d3cf"
   integrity sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==
 
-storybook-i18n@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/storybook-i18n/-/storybook-i18n-1.1.1.tgz#9935b873c5587a0d5c55913e5f35a3b7b33488cd"
-  integrity sha512-YjqVD/3BV7gxYLTYeGwC6yDHXE26WTw1hfLL6jDdf0zYFwDjf7ettJTw8/iqiPjK8b5eXvynpIhlUb64L1VCEg==
+storybook-i18n@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/storybook-i18n/-/storybook-i18n-1.1.2.tgz#443b8b4a553ae39a56528ac36a9eeb766a9a11c8"
+  integrity sha512-UHZlbTe77zIeQ6F8F1VAzB6PpUUQGPD/u0NasxDrB7VjqDRKsBUFLDdSa0vhhX9gGdaWALO+LX/6+LE3MNaYIw==
 
 stream-browserify@^2.0.1:
   version "2.0.2"
