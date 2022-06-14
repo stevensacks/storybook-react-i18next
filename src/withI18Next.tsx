@@ -1,4 +1,4 @@
-import React, {Suspense, Fragment} from 'react';
+import React, {Fragment} from 'react';
 import {
     AnyFramework,
     PartialStoryFn as StoryFunction,
@@ -27,19 +27,22 @@ export const withI18Next = (
             setShow(false);
             i18n?.changeLanguage(locale);
             timeoutRef.current = setTimeout(() => setShow(true), 100);
+            return () => {
+                if (timeoutRef.current) {
+                    clearTimeout(timeoutRef.current);
+                }
+            };
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale]);
 
     if (i18n && show) {
         return (
-            <Suspense fallback="Loading...">
-                <Fragment key={locale}>
-                    <I18nextProvider i18n={i18n}>
-                        {story(context)}
-                    </I18nextProvider>
-                </Fragment>
-            </Suspense>
+            <Fragment key={locale}>
+                <I18nextProvider i18n={i18n}>
+                    {story(context)}
+                </I18nextProvider>
+            </Fragment>
         );
     }
     return story(context);

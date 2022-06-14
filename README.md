@@ -3,8 +3,8 @@
 Easy react-i18next Storybook integration.
 
 Required Peer Dependencies:
-* storybook - `^6.4.17`
-* i18next - `^20.0.0 || ^21.0.0`
+* storybook - `>=6.5.0`
+* i18next - `>=21.0.0`
 * i18next-browser-languagedetector - `^6.1.4`
 * i18next-http-backend: `^1.4.0`
 * react-i18next - `^11.16.5`
@@ -25,11 +25,11 @@ yarn add -D storybook-react-i18next
 
 You will need to install `i18next` and `react-i18next` as dependencies to your project if they are not already installed.
 ```bash
-npm i -S i18next react-i18next
+npm i -S i18next react-i18next i18next-browser-languagedetector i18next-http-backend
 ```
 
 ```bash
-yarn add i18next react-i18next
+yarn add i18next react-i18next i18next-browser-languagedetector i18next-http-backend
 ```
 
 ## Usage
@@ -51,38 +51,40 @@ Insert this addon into your addons array:
 ### i18next.js
 Create a file in your `.storybook` folder called `i18next.js` (or whatever you like). 
 
-In this file, copy and paste the below code and make whatever modifications you need.
+In this file, copy and paste the below code and make whatever modifications you need (paths to resource files, languages, etc.).
 ```javascript
 import {initReactI18next} from 'react-i18next';
 import i18n from 'i18next';
+import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 const ns = ['common'];
 const supportedLngs = ['en', 'fr', 'ja'];
+const resources = ns.reduce((acc, n) => {
+    supportedLngs.forEach((lng) => {
+    if (!acc[lng]) acc[lng] = {};
+        acc[lng] = {
+            ...acc[lng],
+            [n]: require(`../public/locales/${lng}/${n}.json`),
+        };
+    });
+    return acc;
+}, {});
 
-i18n.use(LanguageDetector)
-    .use(initReactI18next)
+i18n.use(initReactI18next)
+    .use(LanguageDetector)
+    .use(Backend)
     .init({
         //debug: true,
         lng: 'en',
         fallbackLng: 'en',
-        interpolation: {
-            escapeValue: false,
-        },
         defaultNS: 'common',
         ns,
+        interpolation: {escapeValue: false},
+        react: {useSuspense: false},
         supportedLngs,
+        resources,
     });
-
-supportedLngs.forEach((lang) => {
-    ns.forEach((n) => {
-        i18n.addResourceBundle(
-            lang,
-            n,
-            require(`../public/locales/${lang}/${n}.json`)
-        );
-    });
-});
 
 export default i18n;
 ```
