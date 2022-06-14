@@ -1,3 +1,15 @@
+# v1.1.2 (Tue Jun 14 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore(deps): update storybook-i18n to 1.1.2 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.21 (Tue Jun 14 2022)
 
 #### ⚠️ Pushed to `main`
