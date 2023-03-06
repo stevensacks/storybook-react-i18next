@@ -1,3 +1,59 @@
+# v1.1.7 (Mon Mar 06 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: upgraded the dependencies (meza@meza.hu)
+- chore: ran prettier (meza@meza.hu)
+- chore: fixed some issues (meza@meza.hu)
+- chore: added yarn as a dev dependency (meza@meza.hu)
+- fix: updated to storybook v7 (meza@meza.hu)
+- fix: fixed the react-i18next dependency (meza@meza.hu)
+- chore: switched off auto deploy (meza@meza.hu)
+- chore(deps): update storybook-i18n to 1.1.2 ([@stevensacks](https://github.com/stevensacks))
+- feat(i18next): disable suspense, add backend, update SB 6.5 ([@stevensacks](https://github.com/stevensacks))
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- docs(readme): change export and import of i18next.js ([@stevensacks](https://github.com/stevensacks))
+- chore(deps): update peerDeps, react 18 support ([@stevensacks](https://github.com/stevensacks))
+- chore(deps): update dependencies ([@stevensacks](https://github.com/stevensacks))
+- Loosen the Peer dependencies (colediffin@easycrypto.ai)
+- fix(hooks): use storybook hooks instead of react ([@stevensacks](https://github.com/stevensacks))
+- feat(tool): show tool in Docs panel ([@stevensacks](https://github.com/stevensacks))
+- chore(deps): update to storybook 6.4 ([@stevensacks](https://github.com/stevensacks))
+- fix merge ([@stevensacks](https://github.com/stevensacks))
+- docs: use `addResourceBundle` in readme file ([@georgiee](https://github.com/georgiee))
+- update libs ([@stevensacks](https://github.com/stevensacks))
+- fix race condition with <Trans> elements with short delay ([@stevensacks](https://github.com/stevensacks))
+- feat(project): update libs, peer dependencies, readme ([@stevensacks](https://github.com/stevensacks))
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next into main ([@stevensacks](https://github.com/stevensacks))
+- update README to include i18n in left/right examples ([@stevensacks](https://github.com/stevensacks))
+- update README to include left/right ([@stevensacks](https://github.com/stevensacks))
+- update storybook-i18n to support left/right ([@stevensacks](https://github.com/stevensacks))
+- use key instead of delay for redraw ([@stevensacks](https://github.com/stevensacks))
+- add short delay before redraw ([@stevensacks](https://github.com/stevensacks))
+- rename repo to storybook-react-i18n ([@stevensacks](https://github.com/stevensacks))
+- add storybook-i18n to keywords ([@stevensacks](https://github.com/stevensacks))
+- designate for react projects ([@stevensacks](https://github.com/stevensacks))
+- update README and set to v1.0.0 ([@stevensacks](https://github.com/stevensacks))
+- add i18n to preview parameters ([@stevensacks](https://github.com/stevensacks))
+- add i18n manager ([@stevensacks](https://github.com/stevensacks))
+- remove i18n from parameters ([@stevensacks](https://github.com/stevensacks))
+- update version of storybook-i18n ([@stevensacks](https://github.com/stevensacks))
+- move dependencies up ([@stevensacks](https://github.com/stevensacks))
+- update name to storybook-i18next ([@stevensacks](https://github.com/stevensacks))
+- add storybook-i18n ([@stevensacks](https://github.com/stevensacks))
+- reorder imports ([@stevensacks](https://github.com/stevensacks))
+- initial push ([@stevensacks](https://github.com/stevensacks))
+- Initial commit ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 4
+
+- Cole Diffin (colediffin@easycrypto.ai)
+- Georgios Kaleadis ([@georgiee](https://github.com/georgiee))
+- meza (meza@meza.hu)
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.1.6 (Mon Mar 06 2023)
 
 #### ⚠️ Pushed to `main`
