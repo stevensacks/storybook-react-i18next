@@ -13,7 +13,8 @@
     "noImplicitAny": true,
     "rootDir": "./src",
     "skipLibCheck": true,
-    "target": "es5"
+    "target": "es5",
+    "types": ["webpack-env"]
   },
   "include": [
     "src/**/*"

@@ -44,7 +44,7 @@
     "eject-ts": "zx scripts/eject-typescript.mjs"
   },
   "dependencies": {
-    "storybook-i18n": "^1.1.2"
+    "storybook-i18n": "^1.1.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
@@ -59,6 +59,7 @@
     "@storybook/core-events": "next",
     "@storybook/react": "next",
     "@storybook/theming": "next",
+    "@types/webpack-env": "^1.18.0",
     "auto": "^10.37.1",
     "babel-loader": "^8.2.5",
     "boxen": "^5.1.2",

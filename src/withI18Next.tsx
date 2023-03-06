@@ -1,14 +1,14 @@
-import React, {Fragment} from 'react';
+import React, { Fragment, ReactNode } from 'react';
 import {
-    AnyFramework,
+    Renderer,
     PartialStoryFn as StoryFunction,
     StoryContext,
 } from '@storybook/csf';
-import {useEffect, useGlobals, useRef, useState} from '@storybook/client-api';
+import {useEffect, useGlobals, useRef, useState} from '@storybook/addons';
 import {I18nextProvider} from 'react-i18next';
 
 export const withI18Next = (
-    story: StoryFunction<AnyFramework>,
+    story: StoryFunction<Renderer>,
     context: StoryContext
 ) => {
     const {
@@ -33,14 +33,14 @@ export const withI18Next = (
                 }
             };
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale]);
 
     if (i18n && show) {
+
         return (
             <Fragment key={locale}>
                 <I18nextProvider i18n={i18n}>
-                    {story(context)}
+                    {story(context) as ReactNode | null}
                 </I18nextProvider>
             </Fragment>
         );
