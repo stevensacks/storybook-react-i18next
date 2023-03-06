@@ -77,11 +77,11 @@
         "zx": "1.14.1"
     },
     "peerDependencies": {
-        "@storybook/addons": ">=6.5.0",
-        "@storybook/api": ">=6.5.0",
-        "@storybook/components": ">=6.5.0",
-        "@storybook/core-events": ">=6.5.0",
-        "@storybook/theming": ">=6.5.0",
+        "@storybook/addons": ">=6.5.0 || next",
+        "@storybook/api": ">=6.5.0 || next",
+        "@storybook/components": ">=6.5.0 || next",
+        "@storybook/core-events": ">=6.5.0 || next",
+        "@storybook/theming": ">=6.5.0 || next",
         "i18next": ">=21.0.0",
         "i18next-browser-languagedetector": "^6.1.4",
         "i18next-http-backend": "^1.4.0",
