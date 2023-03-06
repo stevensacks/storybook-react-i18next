@@ -1,5 +1,5 @@
 {
-  "name": "storybook-react-i18next",
+  "name": "@meza/storybook-react-i18next",
   "version": "1.1.2",
   "description": "Add react-i18next support to Storybook",
   "keywords": [
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevensacks/storybook-react-i18next"
+    "url": "https://github.com/meza/storybook-react-i18next"
   },
   "author": "Steven Sacks",
   "license": "MIT",
@@ -85,7 +85,7 @@
     "i18next-http-backend": "^1.4.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-i18next": "^11.17.1"
+    "react-i18next": "^11.17.1 || ^12.0.0"
   },
   "peerDependenciesMeta": {
     "react": {
