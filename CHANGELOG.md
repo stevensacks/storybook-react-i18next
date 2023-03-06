@@ -1,3 +1,16 @@
+# v1.1.12 (Mon Mar 06 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: made the prepublish es6 (meza@meza.hu)
+- fix: updated dependencies (meza@meza.hu)
+
+#### Authors: 1
+
+- meza (meza@meza.hu)
+
+---
+
 # v1.1.11 (Mon Mar 06 2023)
 
 #### ⚠️ Pushed to `main`
