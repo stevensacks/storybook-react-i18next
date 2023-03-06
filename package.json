@@ -1,6 +1,6 @@
 {
-    "name": "@meza/storybook-react-i18next",
-    "version": "1.1.12",
+    "name": "storybook-react-i18next",
+    "version": "1.1.2",
     "description": "Add react-i18next support to Storybook",
     "keywords": [
         "storybook-addons",
@@ -101,7 +101,7 @@
         "access": "public"
     },
     "storybook": {
-        "displayName": "Storybook v7 react-i18next addon",
+        "displayName": "Storybook react-i18next addon",
         "supportedFrameworks": [
             "react"
         ],
