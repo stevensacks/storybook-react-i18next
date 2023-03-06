@@ -1,4 +1,4 @@
-import React, { Fragment, ReactNode } from 'react';
+import React, {Fragment, ReactNode} from 'react';
 import {
     Renderer,
     PartialStoryFn as StoryFunction,
@@ -36,7 +36,6 @@ export const withI18Next = (
     }, [locale]);
 
     if (i18n && show) {
-
         return (
             <Fragment key={locale}>
                 <I18nextProvider i18n={i18n}>

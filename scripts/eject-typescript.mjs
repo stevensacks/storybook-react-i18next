@@ -22,9 +22,9 @@ await $`printf 'declare module "global";' >> ./src/typings.d.ts`;
 await $`rm -rf ./srcTS`;
 
 console.log(
-  chalk.green.bold`
+    chalk.green.bold`
 TypeScript Ejection complete!`,
-  chalk.green`
+    chalk.green`
 Addon code converted with JS. The TypeScript build setup is still available in case you want to adopt TypeScript in the future.
 `
 );
