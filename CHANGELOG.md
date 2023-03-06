@@ -1,3 +1,15 @@
+# v1.1.10 (Mon Mar 06 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: added next as peer dependency versions (meza@meza.hu)
+
+#### Authors: 1
+
+- meza (meza@meza.hu)
+
+---
+
 # v1.1.9 (Mon Mar 06 2023)
 
 #### ⚠️ Pushed to `main`
