@@ -1,3 +1,15 @@
+# v1.1.11 (Mon Mar 06 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: trying out a different approach with peer deps (meza@meza.hu)
+
+#### Authors: 1
+
+- meza (meza@meza.hu)
+
+---
+
 # v1.1.10 (Mon Mar 06 2023)
 
 #### ⚠️ Pushed to `main`
