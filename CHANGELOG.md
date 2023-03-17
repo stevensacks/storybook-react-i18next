@@ -1,3 +1,15 @@
+# v1.1.3 (Fri Mar 17 2023)
+
+#### 🐛 Bug Fix
+
+- Support react-i18next v12 [#15](https://github.com/stevensacks/storybook-react-i18next/pull/15) ([@sawyerh](https://github.com/sawyerh))
+
+#### Authors: 1
+
+- Sawyer Hollenshead ([@sawyerh](https://github.com/sawyerh))
+
+---
+
 # v1.1.2 (Tue Jun 14 2022)
 
 #### ⚠️ Pushed to `main`
