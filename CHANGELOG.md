@@ -39,7 +39,7 @@
 #### ⚠️ Pushed to `main`
 
 - Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
-- docs(readme): change export and import of i18next.js ([@stevensacks](https://github.com/stevensacks))
+- docs(readme): change export and import of i18next.ts ([@stevensacks](https://github.com/stevensacks))
 
 #### Authors: 1
 

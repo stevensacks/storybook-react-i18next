@@ -1,14 +1,14 @@
-import React, {Fragment} from 'react';
-import {
-    AnyFramework,
-    PartialStoryFn as StoryFunction,
-    StoryContext,
-} from '@storybook/csf';
+import React, {Fragment, ReactNode} from 'react';
 import {useEffect, useGlobals, useRef, useState} from '@storybook/client-api';
+import {
+    PartialStoryFn as StoryFunction,
+    Renderer,
+    StoryContext,
+} from '@storybook/types';
 import {I18nextProvider} from 'react-i18next';
 
 export const withI18Next = (
-    story: StoryFunction<AnyFramework>,
+    story: StoryFunction<Renderer>,
     context: StoryContext
 ) => {
     const {
@@ -40,7 +40,7 @@ export const withI18Next = (
         return (
             <Fragment key={locale}>
                 <I18nextProvider i18n={i18n}>
-                    {story(context)}
+                    {story(context) as ReactNode | null}
                 </I18nextProvider>
             </Fragment>
         );
