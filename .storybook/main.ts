@@ -6,7 +6,6 @@ const config: StorybookConfig = {
         '@storybook/addon-links',
         '@storybook/addon-essentials',
         '@storybook/addon-interactions',
-        'storybook-i18n',
         './local-preset.js',
     ],
     framework: {

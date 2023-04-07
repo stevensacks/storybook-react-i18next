@@ -45,7 +45,6 @@
     "*.d.ts"
   ],
   "scripts": {
-    "postinstall": "node scripts/welcome.js",
     "clean": "rimraf ./dist",
     "prebuild": "yarn clean",
     "build": "tsup",
@@ -59,7 +58,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "storybook-i18n": "2.0.2"
+    "storybook-i18n": "^2.0.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.2",
