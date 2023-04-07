@@ -10607,6 +10607,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"storybook-i18n@npm:2.0.2":
+  version: 2.0.2
+  resolution: "storybook-i18n@npm:2.0.2"
+  peerDependencies:
+    "@storybook/components": ^7.0.0
+    "@storybook/manager-api": ^7.0.0
+    "@storybook/preview-api": ^7.0.0
+    "@storybook/types": ^7.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: b5de71edd9540fac24f785f23dcb1fac07727cc2d2fa2bac693058f0f89d97483ab408acae8e61685162400025953f112ff98d8e26da2e86bd8aa2c31e8c2143
+  languageName: node
+  linkType: hard
+
 "storybook-react-i18next@workspace:.":
   version: 0.0.0-use.local
   resolution: "storybook-react-i18next@workspace:."
@@ -10639,6 +10658,7 @@ __metadata:
     react-i18next: ^12.2.0
     rimraf: ^3.0.2
     storybook: ^7.0.0
+    storybook-i18n: 2.0.2
     tsup: ^6.6.3
     typescript: ^4.9.5
     vite: ^4.1.4
