@@ -1,3 +1,15 @@
+# v1.1.4 (Fri Apr 07 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix type in preview.ts ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.1.3 (Fri Mar 17 2023)
 
 #### 🐛 Bug Fix
