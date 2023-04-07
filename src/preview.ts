@@ -2,7 +2,8 @@ import type {Renderer, ProjectAnnotations} from '@storybook/types';
 import i18n from 'storybook-i18n/preview';
 import {withI18Next} from './withI18Next';
 
-const i18nDecorators = i18n?.decorators || [];
+// @ts-ignore
+const i18nDecorators = i18n.decorators || [];
 
 const preview: ProjectAnnotations<Renderer> = {
     ...i18n,

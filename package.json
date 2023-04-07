@@ -58,7 +58,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "storybook-i18n": "^2.0.2"
+    "storybook-i18n": "^2.0.6"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.2",

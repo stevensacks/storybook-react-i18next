@@ -10607,9 +10607,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-i18n@npm:2.0.2":
-  version: 2.0.2
-  resolution: "storybook-i18n@npm:2.0.2"
+"storybook-i18n@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "storybook-i18n@npm:2.0.6"
   peerDependencies:
     "@storybook/components": ^7.0.0
     "@storybook/manager-api": ^7.0.0
@@ -10622,7 +10622,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: b5de71edd9540fac24f785f23dcb1fac07727cc2d2fa2bac693058f0f89d97483ab408acae8e61685162400025953f112ff98d8e26da2e86bd8aa2c31e8c2143
+  checksum: 430797a7f0a5a11636ac95e6e35064417e9a4cc79dfe991b99b84cecd630e0194561c4d5f3ed8013d892274288723fbe4d4faa95fa8f416f4d444bd059a9de1c
   languageName: node
   linkType: hard
 
@@ -10658,7 +10658,7 @@ __metadata:
     react-i18next: ^12.2.0
     rimraf: ^3.0.2
     storybook: ^7.0.0
-    storybook-i18n: 2.0.2
+    storybook-i18n: ^2.0.6
     tsup: ^6.6.3
     typescript: ^4.9.5
     vite: ^4.1.4
