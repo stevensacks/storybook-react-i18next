@@ -94,7 +94,7 @@ Refer to the [i18next Configuration Options](https://www.i18next.com/overview/co
 ---
 
 ### preview.ts
-In your `preview.ts`, you need to add the `locales` and `locale` globals, as well as adding `i18n` that you exported from the above file to parameters.
+In your `preview.ts`, you need to add the `locales` and `locale` to globals, as well as adding `i18n` that you exported from the above file to parameters.
 
 \`locales` is an object where the keys are the "ids" of the locales/languages and the values are the names you want to display in the dropdown.
 
@@ -116,6 +116,8 @@ const preview: Preview = {
         i18n,
     },
 };
+
+export default preview;
 ```
 
 You can also use full locale strings as keys. It depends on your i18next configuration.
@@ -137,6 +139,8 @@ const preview: Preview = {
         i18n,
     },
 };
+
+export default preview;
 ```
 
 
@@ -161,6 +165,8 @@ const preview: Preview = {
         i18n,
     },
 };
+
+export default preview;
 ```
 
 Or something like this:
@@ -181,6 +187,8 @@ const preview: Preview = {
         i18n,
     },
 };
+
+export default preview;
 ```
 
 ## Story Parameters Locale
