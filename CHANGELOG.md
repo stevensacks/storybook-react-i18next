@@ -1,3 +1,16 @@
+# v2.0.2 (Mon May 29 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore(project): update deps ([@stevensacks](https://github.com/stevensacks))
+- update docs to make clear to export preview ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.1.4 (Fri Apr 07 2023)
 
 #### ⚠️ Pushed to `main`
