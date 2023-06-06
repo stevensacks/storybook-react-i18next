@@ -1,3 +1,20 @@
+# v2.0.3 (Tue Jun 06 2023)
+
+#### 🐛 Bug Fix
+
+- Fix i18n and Storybook Play interactions [#21](https://github.com/stevensacks/storybook-react-i18next/pull/21) ([@Zurdge](https://github.com/Zurdge))
+
+#### ⚠️ Pushed to `main`
+
+- clean up PR ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- James Burdge ([@Zurdge](https://github.com/Zurdge))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.2 (Mon May 29 2023)
 
 #### ⚠️ Pushed to `main`
