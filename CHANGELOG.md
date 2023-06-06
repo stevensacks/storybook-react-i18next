@@ -1,3 +1,15 @@
+# v2.0.4 (Tue Jun 06 2023)
+
+#### ⚠️ Pushed to `main`
+
+- add play stories and fix play functionality ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.3 (Tue Jun 06 2023)
 
 #### 🐛 Bug Fix
