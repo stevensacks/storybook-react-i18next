@@ -79,7 +79,7 @@
     "concurrently": "^6.2.0",
     "dedent": "^0.7.0",
     "i18next": "^22.5.0",
-    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-browser-languagedetector": "^7.0.2",
     "i18next-http-backend": "^2.2.1",
     "prettier": "^2.8.8",
     "prompts": "^2.4.2",
