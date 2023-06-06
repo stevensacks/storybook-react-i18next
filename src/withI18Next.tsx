@@ -16,24 +16,11 @@ export const withI18Next = (
     } = context;
 
     const [{locale}] = useGlobals();
-    const [show, setShow] = useState(true);
-    const timeoutRef = useRef(null);
 
     useEffect(() => {
         if (locale) {
-            if (timeoutRef.current) {
-                clearTimeout(timeoutRef.current);
-            }
-            setShow(false);
             i18n?.changeLanguage(locale);
-            timeoutRef.current = setTimeout(() => setShow(true), 100);
-            return () => {
-                if (timeoutRef.current) {
-                    clearTimeout(timeoutRef.current);
-                }
-            };
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale]);
 
     return (
