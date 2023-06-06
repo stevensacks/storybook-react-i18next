@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react';
+import React, {Fragment, ReactNode, useState} from 'react';
 import {useEffect, useGlobals} from '@storybook/client-api';
 import {
     PartialStoryFn as StoryFunction,
@@ -15,17 +15,29 @@ export const withI18Next = (
         parameters: {i18n},
     } = context;
 
+    const language = i18n.language;
+
     const [{locale}] = useGlobals();
+    const [key, setKey] = useState(0);
 
     useEffect(() => {
-        if (locale) {
-            i18n?.changeLanguage(locale);
+        i18n.on('languageChanged', () => {
+            setKey(Date.now());
+        });
+        return () => i18n.off('languageChanged');
+    }, []);
+
+    useEffect(() => {
+        if (i18n && locale && language && locale !== language) {
+            i18n.changeLanguage(locale);
         }
-    }, [locale]);
+    }, [language, locale, i18n]);
 
     return (
-        <I18nextProvider i18n={i18n}>
-            {story(context) as ReactNode | null}
-        </I18nextProvider>
+        <Fragment key={key}>
+            <I18nextProvider i18n={i18n}>
+                {story(context) as ReactNode | null}
+            </I18nextProvider>
+        </Fragment>
     );
 };
