@@ -36,14 +36,11 @@ export const withI18Next = (
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [locale]);
 
-    if (i18n && show) {
-        return (
-            <Fragment key={locale}>
-                <I18nextProvider i18n={i18n}>
-                    {story(context) as ReactNode | null}
-                </I18nextProvider>
-            </Fragment>
-        );
-    }
-    return story(context);
+    return (
+        <>
+            <I18nextProvider i18n={i18n}>
+                {story(context) as ReactNode | null}
+            </I18nextProvider>
+        </>
+    );
 };
