@@ -15,17 +15,19 @@ export const withI18Next = (
         parameters: {i18n},
     } = context;
 
-    const language = i18n.language;
+    const language = i18n?.language;
 
     const [{locale}] = useGlobals();
     const [key, setKey] = useState(0);
 
     useEffect(() => {
-        i18n.on('languageChanged', () => {
-            setKey(Date.now());
-        });
-        return () => i18n.off('languageChanged');
-    }, []);
+        if (i18n) {
+            i18n.on('languageChanged', () => {
+                setKey(Date.now());
+            });
+            return () => i18n.off('languageChanged');
+        }
+    }, [i18n]);
 
     useEffect(() => {
         if (i18n && locale && language && locale !== language) {
