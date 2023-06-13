@@ -1,3 +1,15 @@
+# v2.0.5 (Tue Jun 13 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: check for i18n to be defined ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.4 (Tue Jun 06 2023)
 
 #### ⚠️ Pushed to `main`
