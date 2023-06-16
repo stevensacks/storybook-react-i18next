@@ -1,3 +1,15 @@
+# v2.0.6 (Fri Jun 16 2023)
+
+#### 🐛 Bug Fix
+
+- Support react-i18next v13 [#24](https://github.com/stevensacks/storybook-react-i18next/pull/24) ([@marcosgilf](https://github.com/marcosgilf))
+
+#### Authors: 1
+
+- Marcos Gil ([@marcosgilf](https://github.com/marcosgilf))
+
+---
+
 # v2.0.5 (Tue Jun 13 2023)
 
 #### ⚠️ Pushed to `main`
