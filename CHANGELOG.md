@@ -1,3 +1,17 @@
+# v2.0.7 (Fri Jul 28 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: increment manually ([@stevensacks](https://github.com/stevensacks))
+- docs: update README ([@stevensacks](https://github.com/stevensacks))
+- fix: useState from client-api ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.6 (Fri Jun 16 2023)
 
 #### 🐛 Bug Fix
