@@ -13,7 +13,7 @@ This Storybook addon assumes your project is already set up with [i18next](https
 
 ## Installation
 
-Install this addon as a dev dependency.
+Install this addon as a devDependency.
 
 ```bash
 npm i -D storybook-react-i18next
