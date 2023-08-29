@@ -1,3 +1,15 @@
+# v2.0.9 (Tue Aug 29 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update dependencies to storybook-i18n and storybook ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.7 (Fri Jul 28 2023)
 
 #### ⚠️ Pushed to `main`
