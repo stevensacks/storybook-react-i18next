@@ -1,3 +1,16 @@
+# v2.0.10 (Fri Dec 22 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update scripts ([@stevensacks](https://github.com/stevensacks))
+- feat: support react-i18next 14.x ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.4 (Mon Nov 27 2023)
 
 #### 🐛 Bug Fix
