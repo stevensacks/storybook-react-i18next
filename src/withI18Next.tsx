@@ -1,6 +1,6 @@
 import React, {Fragment, ReactNode} from 'react';
-import {useEffect, useGlobals, useState} from '@storybook/client-api';
-import {
+import {useEffect, useGlobals, useState} from '@storybook/preview-api';
+import type {
     PartialStoryFn as StoryFunction,
     Renderer,
     StoryContext,
@@ -9,7 +9,7 @@ import {I18nextProvider} from 'react-i18next';
 
 export const withI18Next = (
     story: StoryFunction<Renderer>,
-    context: StoryContext
+    context: StoryContext<Renderer>,
 ) => {
     const {
         parameters: {i18n},
