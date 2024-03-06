@@ -6,9 +6,9 @@ const preview: Preview = {
     globals: {
         locale: 'en',
         locales: {
-            en: {title: 'English', left: '🇺🇸', right: 'EN'},
-            fr: {title: 'French', left: '🇫🇷', right: 'FR'},
-            ja: {title: '日本語', left: '🇯🇵', right: 'JA'},
+            en: {icon: '🇺🇸', title: 'English', right: 'EN'},
+            fr: {icon: '🇫🇷', title: 'Français', right: 'FR'},
+            ja: {icon: '🇯🇵', title: '日本語', right: 'JP'},
         },
     },
     parameters: {
