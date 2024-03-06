@@ -3,7 +3,7 @@
 Easy react-i18next Storybook integration.
 
 Required Peer Dependencies:
-* storybook - `^7.0.0`
+* storybook - `^8.0.0`
 * i18next - `^22.0.0`
 * i18next-browser-languagedetector - `^7.0.0`
 * i18next-http-backend: `^2.0.0`
@@ -156,9 +156,9 @@ const preview: Preview = {
     globals: {
         locale: "en",
         locales: {
-            en: {title: "English", left: '🇺🇸'},
-            fr: {title: "Français", left: '🇫🇷'},
-            ja: {title: "日本語", left: '🇯🇵'},
+            en: {icon: '🇺🇸', title: 'English', right: 'EN'},
+            fr: {icon: '🇫🇷', title: 'Français', right: 'FR'},
+            ja: {icon: '🇯🇵', title: '日本語', right: 'JP'},
         },
     },
     parameters: {
@@ -175,12 +175,12 @@ import i18n from './i18next';
 
 const preview: Preview = {
     globals: {
-        locale: "en_US",
+        locale: 'en_US',
         locales: {
-            en_US: {title: "English", right: 'US'},
-            en_GB: {title: "English", right: 'GB'},
-            fr_FR: {title: "Français", right: 'FR'},
-            ja_JP: {title: "日本語", right: 'JP'},
+            en_US: {title: 'English', right: 'US'},
+            en_GB: {title: 'English', right: 'GB'},
+            fr_FR: {title: 'Français', right: 'FR'},
+            ja_JP: {title: '日本語', right: 'JP'},
         },
     },
     parameters: {
@@ -217,7 +217,3 @@ Once you have finished these steps and launch storybook, you should see a globe 
 Clicking this globe icon will show a dropdown with the locales you defined in `parameters`. 
 
 Switching locales will use the strings defined in your locale json files.
-
-## Migrating to Storybook 7
-
-In `.storybook/preview.ts`, move the locale/locales to be under `globals` instead of `parameters`.
