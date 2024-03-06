@@ -1,3 +1,15 @@
+# v2.0.11 (Wed Mar 06 2024)
+
+#### 🐛 Bug Fix
+
+- feat: storybook 8 [#27](https://github.com/stevensacks/storybook-react-i18next/pull/27) ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.10 (Fri Dec 22 2023)
 
 #### ⚠️ Pushed to `main`
