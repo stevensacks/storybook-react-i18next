@@ -1,3 +1,15 @@
+# v2.1.2 (Thu Mar 14 2024)
+
+#### ⚠️ Pushed to `main`
+
+- feat: storybook 8 release ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.0.11 (Wed Mar 06 2024)
 
 #### 🐛 Bug Fix
