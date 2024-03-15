@@ -2,6 +2,19 @@
 
 #### ⚠️ Pushed to `main`
 
+- feat: bump major version for storybook 8 ([@stevensacks](https://github.com/stevensacks))
+- feat: update storybook-i18n to 3.x ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
+# v2.1.3 (Fri Mar 15 2024)
+
+#### ⚠️ Pushed to `main`
+
 - feat: update storybook-i18n to 3.x ([@stevensacks](https://github.com/stevensacks))
 
 #### Authors: 1
