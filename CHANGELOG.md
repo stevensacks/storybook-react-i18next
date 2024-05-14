@@ -1,3 +1,16 @@
+# v3.0.2 (Tue May 14 2024)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update README with supported versions ([@stevensacks](https://github.com/stevensacks))
+- feat: add support for i18next-browser-languagedetector ^8.0.0 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.1.3 (Fri Mar 15 2024)
 
 #### ⚠️ Pushed to `main`
