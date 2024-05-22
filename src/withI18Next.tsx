@@ -15,6 +15,14 @@ export const withI18Next = (
         parameters: {i18n},
     } = context;
 
+    if (i18n === undefined) {
+        console.error(`The 'i18n' parameter is missing in 'parameters' configuration of preview.js. Define the 'i18n' parameter as follows:
+parameters: {
+    i18n,
+},
+`);
+    }
+
     const language = i18n?.language;
 
     const [{locale}] = useGlobals();
