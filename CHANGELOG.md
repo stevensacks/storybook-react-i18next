@@ -1,3 +1,21 @@
+# v3.1.4 (Mon Jul 22 2024)
+
+#### 🐛 Bug Fix
+
+- add friendly error message if i18n is undefined [#29](https://github.com/stevensacks/storybook-react-i18next/pull/29) ([@odanado](https://github.com/odanado))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- ci: use node 18 for build ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- odanado ([@odanado](https://github.com/odanado))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.3 (Mon Jul 22 2024)
 
 #### ⚠️ Pushed to `main`
