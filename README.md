@@ -19,17 +19,9 @@ Install this addon as a devDependency.
 npm i -D storybook-react-i18next
 ```
 
-```bash
-yarn add -D storybook-react-i18next
-```
-
 You will need to install `i18next` and `react-i18next` as dependencies to your project if they are not already installed.
 ```bash
 npm i -S i18next react-i18next i18next-browser-languagedetector i18next-http-backend
-```
-
-```bash
-yarn add i18next react-i18next i18next-browser-languagedetector i18next-http-backend
 ```
 
 ## Usage
@@ -94,9 +86,9 @@ Refer to the [i18next Configuration Options](https://www.i18next.com/overview/co
 ---
 
 ### preview.ts
-In your `preview.ts`, you need to add the `locales` and `locale` to globals, as well as adding `i18n` that you exported from the above file to parameters.
+In your `preview.ts`, you need to add the `locales` and `locale` to` initialGlobals` (or `globals` if you're not using the latest version of storybook), as well as adding `i18n` that you exported from the above file to parameters.
 
-\`locales` is an object where the keys are the "ids" of the locales/languages and the values are the names you want to display in the dropdown.
+`locales` is an object where the keys are the "ids" of the locales/languages and the values are the names you want to display in the dropdown.
 
 `locale` is what you want the default locale to be.
 
@@ -104,7 +96,7 @@ In your `preview.ts`, you need to add the `locales` and `locale` to globals, as 
 import i18n from './i18next';
 
 const preview: Preview = {
-    globals: {
+    initialGlobals: {
         locale: 'en',
         locales: {
             en: 'English',
@@ -126,7 +118,7 @@ You can also use full locale strings as keys. It depends on your i18next configu
 import i18n from './i18next';
 
 const preview: Preview = {
-    globals: {
+    initialGlobals: {
         locale: 'en_US',
         locales: {
             en_US: 'English (US)',
@@ -153,7 +145,7 @@ For example:
 import i18n from './i18next';
 
 const preview: Preview = {
-    globals: {
+    initialGlobals: {
         locale: "en",
         locales: {
             en: {icon: '🇺🇸', title: 'English', right: 'EN'},
@@ -174,7 +166,7 @@ Or something like this:
 import i18n from './i18next';
 
 const preview: Preview = {
-    globals: {
+    initialGlobals: {
         locale: 'en_US',
         locales: {
             en_US: {title: 'English', right: 'US'},
