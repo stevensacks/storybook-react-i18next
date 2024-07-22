@@ -1,3 +1,15 @@
+# v3.1.5 (Mon Jul 22 2024)
+
+#### ⚠️ Pushed to `main`
+
+- docs: update README for latest version of storybook initialGlobals ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.4 (Mon Jul 22 2024)
 
 #### 🐛 Bug Fix
