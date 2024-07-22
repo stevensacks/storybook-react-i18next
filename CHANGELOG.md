@@ -1,3 +1,16 @@
+# v3.1.3 (Mon Jul 22 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- docs: update README to reflect react-i18next 15.x ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.2 (Mon Jul 22 2024)
 
 #### ⚠️ Pushed to `main`
