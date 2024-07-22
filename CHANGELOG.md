@@ -1,3 +1,15 @@
+# v3.1.2 (Mon Jul 22 2024)
+
+#### ⚠️ Pushed to `main`
+
+- chore: add react-i18next 15.x to peerDependencies ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.0.2 (Tue May 14 2024)
 
 #### ⚠️ Pushed to `main`
