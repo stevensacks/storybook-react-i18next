@@ -1,3 +1,16 @@
+# v3.1.6 (Mon Jul 29 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- feat: change to storybook 8.2 initialGlobals ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.5 (Mon Jul 22 2024)
 
 #### ⚠️ Pushed to `main`
