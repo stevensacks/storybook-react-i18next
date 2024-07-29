@@ -52,7 +52,6 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@storybook/test": "8.2.6",
     "storybook-i18n": "3.1.1"
   },
   "devDependencies": {
@@ -68,6 +67,7 @@
     "@storybook/preview-api": "8.2.6",
     "@storybook/react": "8.2.6",
     "@storybook/react-vite": "8.2.6",
+    "@storybook/test": "8.2.6",
     "@storybook/theming": "8.2.6",
     "@storybook/types": "8.2.6",
     "@types/node": "22.0.0",
