@@ -1,3 +1,16 @@
+# v3.1.7 (Mon Jul 29 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- fix: storybook/test should be in devDependencies, not dependencies ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.6 (Mon Jul 29 2024)
 
 #### ⚠️ Pushed to `main`
