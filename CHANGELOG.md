@@ -1,3 +1,15 @@
+# v3.1.8 (Tue Dec 10 2024)
+
+#### ⚠️ Pushed to `main`
+
+- feat: remove react from peerDeps for react 19 compat ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.7 (Mon Jul 29 2024)
 
 #### ⚠️ Pushed to `main`
