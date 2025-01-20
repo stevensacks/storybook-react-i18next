@@ -1,3 +1,16 @@
+# v3.1.9 (Mon Jan 20 2025)
+
+#### ⚠️ Pushed to `main`
+
+- ci: update to checkout v4 ([@stevensacks](https://github.com/stevensacks))
+- feat: support i18next-http-backend 3.x ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.8 (Tue Dec 10 2024)
 
 #### ⚠️ Pushed to `main`
