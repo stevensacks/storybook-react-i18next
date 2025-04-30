@@ -1,3 +1,16 @@
+# v3.2.2 (Wed Apr 30 2025)
+
+#### ⚠️ Pushed to `main`
+
+- merge: merge in changes ([@stevensacks](https://github.com/stevensacks))
+- fix: add i18next v25 to peerDependencies ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.1.9 (Mon Jan 20 2025)
 
 #### ⚠️ Pushed to `main`
