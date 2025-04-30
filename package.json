@@ -1,6 +1,6 @@
 {
   "name": "storybook-react-i18next",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Add react-i18next support to Storybook",
   "keywords": [
     "storybook-addons",
@@ -77,9 +77,9 @@
     "auto": "11.3.0",
     "boxen": "^7.1.1",
     "dedent": "1.5.3",
-    "i18next": "24.2.1",
-    "i18next-browser-languagedetector": "8.0.2",
-    "i18next-http-backend": "3.0.1",
+    "i18next": "25.0.2",
+    "i18next-browser-languagedetector": "8.0.5",
+    "i18next-http-backend": "3.0.2",
     "npm-run-all": "^4.1.5",
     "prettier": "3.4.2",
     "prompts": "^2.4.2",
@@ -93,7 +93,7 @@
     "zx": "^7.2.3"
   },
   "peerDependencies": {
-    "i18next": "^22.0.0 || ^23.0.0 || ^24.0.0",
+    "i18next": "^22.0.0 || ^23.0.0 || ^24.0.0 || ^25.0.0",
     "i18next-browser-languagedetector": "^7.0.0 || ^8.0.0",
     "i18next-http-backend": "^2.0.0 || ^3.0.0",
     "react-i18next": "^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0"
