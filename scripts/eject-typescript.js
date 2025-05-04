@@ -47,9 +47,9 @@ console.log(chalk.green`
 await $`npm uninstall @babel/cli @babel/preset-typescript --ignore-scripts`;
 
 console.log(
-  chalk.green.bold`
+    chalk.green.bold`
 TypeScript Ejection complete!`,
-  chalk.green`
+    chalk.green`
 Addon code converted with JS. The TypeScript build setup is still available in case you want to adopt TypeScript in the future.
-`
+`,
 );
