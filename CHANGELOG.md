@@ -1,3 +1,18 @@
+# v3.3.2 (Sun May 04 2025)
+
+#### ⚠️ Pushed to `main`
+
+- fix: use node 20 for build ([@stevensacks](https://github.com/stevensacks))
+- chore: add storybook packageManager ([@stevensacks](https://github.com/stevensacks))
+- fix: storybook scripts to v9 ([@stevensacks](https://github.com/stevensacks))
+- feat: add storybook 9 support ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.2.2 (Wed Apr 30 2025)
 
 #### ⚠️ Pushed to `main`
