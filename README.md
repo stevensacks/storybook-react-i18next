@@ -3,8 +3,10 @@
 Easy react-i18next Storybook integration.
 
 Required Peer Dependencies:
-* storybook - `^8.2.0`
-* i18next - `^22.0.0 || ^23.0.0 || ^24.0.0`
+* Version 4.x - storybook - `^9.0.0`
+* Version 3.x - storybook - `^8.0.0`
+
+* i18next - `^22.0.0 || ^23.0.0 || ^24.0.0 || ^25.0.0`
 * i18next-browser-languagedetector - `^7.0.0 || ^8.0.0`
 * i18next-http-backend: `^2.0.0 || ^3.0.0`
 * react-i18next - `^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0`

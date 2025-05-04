@@ -1,10 +1,10 @@
 import React, {Fragment, ReactNode} from 'react';
-import {useEffect, useGlobals, useState} from '@storybook/preview-api';
+import {useEffect, useGlobals, useState} from 'storybook/preview-api';
 import type {
     PartialStoryFn as StoryFunction,
     Renderer,
     StoryContext,
-} from '@storybook/types';
+} from 'storybook/internal/types';
 import {I18nextProvider} from 'react-i18next';
 
 export const withI18Next = (

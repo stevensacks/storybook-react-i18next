@@ -1,4 +1,4 @@
-import type {Renderer, ProjectAnnotations} from '@storybook/types';
+import type {Renderer, ProjectAnnotations} from 'storybook/internal/types';
 import i18n from 'storybook-i18n/preview';
 import {withI18Next} from './withI18Next';
 
