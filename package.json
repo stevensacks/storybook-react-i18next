@@ -1,6 +1,6 @@
 {
   "name": "storybook-react-i18next",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Add react-i18next support to Storybook",
   "keywords": [
     "storybook-addons",
