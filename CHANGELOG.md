@@ -1,3 +1,16 @@
+# v4.0.4 (Fri Jun 06 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- fix: storybook-i18n updated for globe icon ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.3 (Wed May 28 2025)
 
 #### ⚠️ Pushed to `main`
