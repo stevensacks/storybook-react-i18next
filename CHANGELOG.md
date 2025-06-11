@@ -1,3 +1,15 @@
+# v4.0.6 (Wed Jun 11 2025)
+
+#### ⚠️ Pushed to `main`
+
+- fix: remove tsup js file ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.5 (Wed Jun 11 2025)
 
 #### 🐛 Bug Fix
