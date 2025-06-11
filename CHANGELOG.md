@@ -1,3 +1,17 @@
+# v4.0.8 (Wed Jun 11 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- fix: set storybook peerDep to workspace ([@stevensacks](https://github.com/stevensacks))
+- fix: more explicit react peerDependency ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.7 (Wed Jun 11 2025)
 
 #### ⚠️ Pushed to `main`
