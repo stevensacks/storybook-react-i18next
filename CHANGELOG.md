@@ -1,3 +1,17 @@
+# v4.0.7 (Wed Jun 11 2025)
+
+#### ⚠️ Pushed to `main`
+
+- chore: remove peerDependency check ([@stevensacks](https://github.com/stevensacks))
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- fix: add react to external in tsup ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.6 (Wed Jun 11 2025)
 
 #### ⚠️ Pushed to `main`
