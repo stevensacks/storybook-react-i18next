@@ -1,3 +1,17 @@
+# v4.0.5 (Wed Jun 11 2025)
+
+#### 🐛 Bug Fix
+
+- Revert "Add `react` to `peerDependencies` to prevent multiple React versions from being bundled" [#38](https://github.com/stevensacks/storybook-react-i18next/pull/38) ([@stevensacks](https://github.com/stevensacks))
+- Add `react` to `peerDependencies` to prevent multiple React versions from being bundled [#37](https://github.com/stevensacks/storybook-react-i18next/pull/37) ([@odanado](https://github.com/odanado))
+
+#### Authors: 2
+
+- odan ([@odanado](https://github.com/odanado))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.4 (Fri Jun 06 2025)
 
 #### ⚠️ Pushed to `main`
