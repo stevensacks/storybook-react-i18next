@@ -1,3 +1,16 @@
+# v4.0.11 (Fri Jun 13 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-i18next ([@stevensacks](https://github.com/stevensacks))
+- fix: git issue ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.9 (Fri Jun 13 2025)
 
 #### ⚠️ Pushed to `main`
