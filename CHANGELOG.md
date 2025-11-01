@@ -1,3 +1,16 @@
+# v4.0.12 (Sat Nov 01 2025)
+
+#### ⚠️ Pushed to `main`
+
+- chore: resolve conflicts ([@stevensacks](https://github.com/stevensacks))
+- chore: add support for react-i18next 16.x ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.11 (Fri Jun 13 2025)
 
 #### ⚠️ Pushed to `main`
