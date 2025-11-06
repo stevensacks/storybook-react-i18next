@@ -1,4 +1,5 @@
-import React, {FC, useState} from 'react';
+import React, {useState} from 'react';
+import type {FC} from 'react';
 import {useTranslation, Trans} from 'react-i18next';
 
 const Test: FC = () => {

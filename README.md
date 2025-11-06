@@ -3,6 +3,7 @@
 Easy react-i18next Storybook integration.
 
 Required Peer Dependencies:
+* Version 10.x - storybook - `^10.0.0`
 * Version 4.x - storybook - `^9.0.0`
 * Version 3.x - storybook - `^8.0.0`
 
