@@ -1,3 +1,19 @@
+# v4.0.13 (Fri Nov 07 2025)
+
+#### 🐛 Bug Fix
+
+- feat: migrate to storybook 10 [#42](https://github.com/stevensacks/storybook-react-i18next/pull/42) ([@stevensacks](https://github.com/stevensacks))
+
+#### ⚠️ Pushed to `main`
+
+- fix: remove react as peerDep ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.12 (Sat Nov 01 2025)
 
 #### ⚠️ Pushed to `main`
