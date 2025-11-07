@@ -52,11 +52,10 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "storybook-i18n": "^10.0.1"
+        "storybook-i18n": "^10.0.2"
     },
     "devDependencies": {
         "@eslint/js": "^9.36.0",
-        "@storybook/icons": "^1.6.0",
         "@storybook/react-vite": "^10.0.0",
         "@types/node": "^20",
         "@types/react": "^18.2.65",
