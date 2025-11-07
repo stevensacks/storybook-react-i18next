@@ -1,5 +1,4 @@
-import type {Preview} from '@storybook/react';
-// @ts-ignore
+import type {Preview} from '@storybook/react-vite';
 import i18n from './i18next';
 
 const preview: Preview = {

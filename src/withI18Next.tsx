@@ -1,4 +1,5 @@
-import React, {Fragment, ReactNode} from 'react';
+import React, {Fragment} from 'react';
+import type {ReactNode} from 'react';
 import {useEffect, useGlobals, useState} from 'storybook/preview-api';
 import type {
     PartialStoryFn as StoryFunction,
