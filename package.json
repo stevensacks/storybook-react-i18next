@@ -1,6 +1,6 @@
 {
     "name": "storybook-react-i18next",
-    "version": "10.0.1",
+    "version": "10.1.0",
     "description": "Add react-i18next support to Storybook",
     "keywords": [
         "storybook-addons",
@@ -52,7 +52,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "storybook-i18n": "^10.0.2"
+        "storybook-i18n": "^10.0.8"
     },
     "devDependencies": {
         "@eslint/js": "^9.36.0",
