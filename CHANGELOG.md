@@ -1,3 +1,15 @@
+# v10.0.2 (Tue Mar 10 2026)
+
+#### ⚠️ Pushed to `main`
+
+- feat: support storybook icons 2.x ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.13 (Fri Nov 07 2025)
 
 #### 🐛 Bug Fix
