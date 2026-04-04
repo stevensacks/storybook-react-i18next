@@ -1,3 +1,15 @@
+# v10.1.2 (Sat Apr 04 2026)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add support for i18next@26 and react-i18next@17 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v10.0.2 (Tue Mar 10 2026)
 
 #### ⚠️ Pushed to `main`
