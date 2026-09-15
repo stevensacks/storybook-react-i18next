@@ -1,28 +1,25 @@
 import {initReactI18next} from 'react-i18next';
-import i18n from 'i18next';
+import i18n, {type Resource} from 'i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import en from '../src/stories/locales/en';
 import fr from '../src/stories/locales/fr';
 import ja from '../src/stories/locales/ja';
 
-const languages: Record<string, any> = {en, fr, ja};
+const languages: Record<string, Record<string, string>> = {en, fr, ja};
 
 const ns = ['common'];
 const supportedLngs = ['en', 'fr', 'ja'];
-const resources = ns.reduce(
-    (acc, n) => {
-        supportedLngs.forEach((lng) => {
-            if (!acc[lng]) acc[lng] = {};
-            acc[lng] = {
-                ...acc[lng],
-                [n]: languages[lng],
-            };
-        });
-        return acc;
-    },
-    {} as Record<string, any>,
-);
+const resources = ns.reduce<Resource>((acc, n) => {
+    supportedLngs.forEach((lng) => {
+        if (!acc[lng]) acc[lng] = {};
+        acc[lng] = {
+            ...acc[lng],
+            [n]: languages[lng],
+        };
+    });
+    return acc;
+}, {} as Resource);
 
 i18n.use(initReactI18next)
     .use(LanguageDetector)

@@ -6,7 +6,7 @@ const i18nDecorators = i18n.decorators || [];
 
 const preview: ProjectAnnotations<Renderer> = {
     ...i18n,
-    // @ts-ignore
+    // @ts-expect-error withI18Next's StoryFunction/StoryContext are typed against Renderer while i18n.decorators expects a broader/incompatible DecoratorFunction shape
     decorators: [...i18nDecorators, withI18Next],
 };
 
