@@ -1,3 +1,16 @@
+# v10.1.4 (Tue Sep 15 2026)
+
+#### 🐛 Bug Fix
+
+- feat: support i18next-http-backend v4 [#43](https://github.com/stevensacks/storybook-react-i18next/pull/43) ([@alberto](https://github.com/alberto) [@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- alberto ([@alberto](https://github.com/alberto))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v10.1.3 (Tue Sep 15 2026)
 
 #### 🐛 Bug Fix
