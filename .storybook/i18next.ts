@@ -10,16 +10,19 @@ const languages: Record<string, any> = {en, fr, ja};
 
 const ns = ['common'];
 const supportedLngs = ['en', 'fr', 'ja'];
-const resources = ns.reduce((acc, n) => {
-    supportedLngs.forEach((lng) => {
-        if (!acc[lng]) acc[lng] = {};
-        acc[lng] = {
-            ...acc[lng],
-            [n]: languages[lng],
-        };
-    });
-    return acc;
-}, {} as Record<string, any>);
+const resources = ns.reduce(
+    (acc, n) => {
+        supportedLngs.forEach((lng) => {
+            if (!acc[lng]) acc[lng] = {};
+            acc[lng] = {
+                ...acc[lng],
+                [n]: languages[lng],
+            };
+        });
+        return acc;
+    },
+    {} as Record<string, any>,
+);
 
 i18n.use(initReactI18next)
     .use(LanguageDetector)

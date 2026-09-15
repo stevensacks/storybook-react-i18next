@@ -1,7 +1,7 @@
-import type {Preview} from '@storybook/react-vite';
+import {definePreview} from '@storybook/react-vite';
 import i18n from './i18next';
 
-const preview: Preview = {
+export default definePreview({
     initialGlobals: {
         locale: 'en',
         locales: {
@@ -22,6 +22,4 @@ const preview: Preview = {
         },
         i18n,
     },
-};
-
-export default preview;
+});
