@@ -31,10 +31,9 @@ parameters: {
 
     useEffect(() => {
         if (i18n) {
-            i18n.on('languageChanged', () => {
-                setKey(Date.now());
-            });
-            return () => i18n.off('languageChanged');
+            const onLanguageChanged = () => setKey(Date.now());
+            i18n.on('languageChanged', onLanguageChanged);
+            return () => i18n.off('languageChanged', onLanguageChanged);
         }
     }, [i18n]);
 
