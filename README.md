@@ -7,10 +7,12 @@ Required Peer Dependencies:
 * Version 4.x - storybook - `^9.0.0`
 * Version 3.x - storybook - `^8.0.0`
 
-* i18next - `^22.0.0 || ^23.0.0 || ^24.0.0 || ^25.0.0 || ^26.0.0`
+* i18next - `^22.0.0 || ^23.0.0 || ^24.0.0 || ^25.0.0 || ^26.0.0 || ^27.0.0`
 * i18next-browser-languagedetector - `^7.0.0 || ^8.0.0`
 * i18next-http-backend: `^2.0.0 || ^3.0.0 || ^4.0.0`
-* react-i18next - `^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0` 
+* react-i18next - `^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0`
+
+react-i18next 18 requires i18next 27.0.1 or later, React 18 or later and Node.js 22 or later.
 
 This Storybook addon assumes your project is already set up with [i18next](https://www.i18next.com/overview/getting-started) and [react-i18next](https://react.i18next.com/getting-started), with all the required packages installed, and that it is properly configured and working.
 
