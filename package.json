@@ -16,6 +16,9 @@
         "url": "https://github.com/stevensacks/storybook-react-i18next"
     },
     "license": "MIT",
+    "engines": {
+        "node": ">=22"
+    },
     "author": "Steven Sacks",
     "type": "module",
     "exports": {
@@ -52,7 +55,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "storybook-i18n": "11.0.0-next.0"
+        "storybook-i18n": "11.0.0-next.3"
     },
     "devDependencies": {
         "@eslint/js": "^9.39.5",
@@ -69,14 +72,15 @@
         "eslint-plugin-prettier": "5.5.6",
         "eslint-plugin-react": "^7.37.5",
         "eslint-plugin-storybook": "next",
-        "i18next": "26.4.2",
-        "i18next-browser-languagedetector": "8.2.1",
-        "i18next-http-backend": "4.0.0",
+        "i18next": "27.1.1",
+        "i18next-browser-languagedetector": "8.3.0",
+        "i18next-http-backend": "4.0.10",
         "npm-run-all2": "^8.0.4",
         "prettier": "3.9.6",
         "prompts": "^2.4.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-i18next": "18.0.1",
         "storybook": "next",
         "ts-dedent": "^2.3.0",
         "tsup": "8.5.1",
@@ -86,11 +90,11 @@
         "zx": "^8.7.1"
     },
     "peerDependencies": {
-        "i18next": "^22.0.0 || ^23.0.0 || ^24.0.0 || ^25.0.0 || ^26.0.0",
+        "i18next": "^27.0.1",
         "i18next-browser-languagedetector": "^7.0.0 || ^8.0.0",
         "i18next-http-backend": "^2.0.0 || ^3.0.0 || ^4.0.0",
-        "react-i18next": "^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
-        "storybook": "^9.0.0 || ^10.0.0 || ^11.0.0-alpha"
+        "react-i18next": "^18.0.0",
+        "storybook": "^9.0.0 || ^10.0.0 || ^11.0.0-beta"
     },
     "publishConfig": {
         "access": "public"
