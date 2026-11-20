@@ -1,3 +1,17 @@
+# v10.1.5 (Fri Nov 20 2026)
+
+#### 🐛 Bug Fix
+
+- ci: publish to npm with trusted publishing [#49](https://github.com/stevensacks/storybook-react-i18next/pull/49) ([@stevensacks](https://github.com/stevensacks))
+- feat: support i18next@27 and react-i18next@18 [#47](https://github.com/stevensacks/storybook-react-i18next/pull/47) ([@Puppo](https://github.com/Puppo) [@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Luca Del Puppo ([@Puppo](https://github.com/Puppo))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v10.1.4 (Tue Sep 15 2026)
 
 #### 🐛 Bug Fix
