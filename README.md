@@ -117,15 +117,15 @@ const preview: Preview = {
 export default preview;
 ```
 
-If your `preview.ts` uses CSF Factories (`definePreview`), Storybook 11 only loads the preview annotations of addons that you list in `addons`, so add this addon there:
+If your `preview.ts` uses CSF Factories (`definePreview`, the default format in Storybook 11), Storybook only loads the preview annotations of addons that you register in `addons`, so call this addon there:
 
 ```typescript
 import {definePreview} from '@storybook/react-vite';
-import i18nAddon from 'storybook-react-i18next/preview';
+import i18nAddon from 'storybook-react-i18next';
 import i18n from './i18next';
 
 export default definePreview({
-    addons: [i18nAddon],
+    addons: [i18nAddon()],
     initialGlobals: {
         locale: 'en',
         locales: {
